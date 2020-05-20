@@ -1,0 +1,26 @@
+.github-icon {
+  cursor: pointer !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    top: inherit !important;
+    width: 100%;
+    min-width: 100%;
+    height: 50vh;
+    min-height: 50vh;
+    z-index: 99;
+    background-color: rgb(20, 20, 20);
+    background-image: url("../media/vines.png");
+    background-position: right;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .footer {
+    background-color: rgb(20, 20, 20);
+    height: 35vh;
+  }
+}

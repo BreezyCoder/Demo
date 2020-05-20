@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    background-color: #4c6f8d !important;
+    background-image: url("../media/navVines.png");
+    background-position: 105%;
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+    animation: backgroundImg 3s ease infinite;
+  }
+
+  @keyframes backgroundImg {
+    0% {
+      background-position: 105%;
+    }
+
+    50% {
+      background-position: 100%;
+    }
+
+    100% {
+      background-position: 105%;
+    }
+  }
+
+  .navbar-brand {
+    width: 40%;
+    height: 40%;
+    max-width: 40%;
+    max-height: 40%;
+    z-index: 0;
+  }
+}
+
+@media only screen and (max-width: 1203px) {
+  .navbar {
+    background-color: #4c6f8d !important;
+    text-align: center !important;
+  }
+
+  .navbar-brand {
+    width: 60%;
+  }
+
+  .dropdown-menu {
+    text-align: center !important;
+  }
+}

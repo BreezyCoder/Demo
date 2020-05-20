@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Balsamiq Sans", cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.5% !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #454545;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #df3f3f;
+}
