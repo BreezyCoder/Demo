@@ -8,7 +8,6 @@ import Logo from "../media/logo.png";
 export default function Navi() {
   const [state, setState] = React.useState({
     show: false,
-    hideNav: false,
   });
 
   const handleMouseOver = () => {
